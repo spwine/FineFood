@@ -1,0 +1,172 @@
+.body{
+    margin: 0%;
+}
+
+.navbar{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    
+    align-items: center;
+
+    background: #F5F5F3;
+    opacity: 0.9;
+}
+
+body{
+    
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    position: relative;
+    width: 218px;
+    left: 30px 0;
+    top: 30px 0;
+    transform: translateX(25px);
+    
+}
+main{
+    margin-top: 150px;
+}
+
+.container{
+    width: 100%;
+    min-width: 375px;
+    max-width: 500px;
+
+    /*border: 2px #eb0707;*/
+
+    /*margin: 0 auto;*/
+}
+
+h2{
+    
+    margin-left: 36px;
+
+    font-family: 'ivymode', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 150%;
+
+    
+    align-items: center;
+    letter-spacing: 0.05em;
+
+    color: #000000;
+}
+p{
+    font-family: 'Acumin-pro-wide', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 175%;
+    /* or 27px */
+
+
+    /* Dark 2 */
+
+    color: #555555;
+}
+
+#para{
+    
+    width: 251px;
+    
+    margin-left: 36px;
+    margin-top: 8px;
+    margin-bottom: 48px;
+}
+
+#tuna{
+    
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 64px;
+}
+.wrapper{
+ 
+    padding-top: 48px;
+    background-color: #F3F3F1;
+}
+.contact-form{
+    max-width: 500px;
+    
+    width: 100%;
+    
+}
+
+.input-fields{
+    max-width: 300px;
+    flex-direction: column;
+    margin-left: 36px;
+    
+}
+
+.input-fields .msg{
+    width: 100%
+}
+
+.input-fields .input, .msg{
+    margin: 10px 0;
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+
+    font-family: 'Acumin-pro-wide', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 150%;
+    /* or 27px */
+
+
+    /* Dark 2 */
+
+    color: #555555;
+    
+    width: 100%;
+}
+
+.submitbtn{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    padding-bottom: 80px;
+}
+
+.container-foot{
+    width: 100%;
+    height: 116px;
+    margin-bottom: 0%;
+}
+
+#footer{
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 40px;
+    /*width: 322px;
+    height: 15px;*/
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14.9984px;
+    line-height: 100%;
+    /* identical to box height, or 15px */
+
+
+    /* Dark 4 */
+
+    color: #999999;
+
+}
+
