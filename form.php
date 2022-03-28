@@ -12,7 +12,7 @@ $txt ="Name = $name \n".
         "Company name = $company \n" .  
             "Email = $email \n" .  
                 "Message = $message \n";
-$headers = "From: $email \r\n"
+$headers = "From: $email \r\n";
 //"CC: somebodyelse@example.com";
 if($email!=NULL){
     mail($to,$subject,$txt,$headers);
